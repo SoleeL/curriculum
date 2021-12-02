@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ============= BOX ICONS ============= -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!-- ============= CSS ============= -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive CV</title>
+    </head>
+
+    <body>
+        <!-- ============= HEADER ============= -->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="" class="nav__logo">SoleeL</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="bx bx-home nav__icon"></i>Inicio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class="bx bx-user nav__icon"></i>Perfil
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class="bx bxs-school nav__icon"></i>Educacion
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="bx bx-folder-plus nav__icon"></i>Datos de interés
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-receipt nav__icon"></i>Habilidades
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#readings" class="nav__link">
+                                <i class="bx bx-book-reader nav__icon"></i> Lectura
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt">
+
+                    </i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img class="home__img" src="assets/img/perfil.png" alt="">
+                                <h1 class="home__title">
+                                    Carlos
+                                    <b>"SoleeL"</b>
+                                    Núñez
+                                </h1>
+                                <h3 class="home__profession">
+                                    Desarrollador web
+                                </h3>
+                                <div>
+                                    <a download="" href="assets/pdf/CV - Carlos Núñez.pdf" class="home__button-movil">
+                                        Descargar
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="home__adress bd-grid">
+                                <span class="home__information">
+                                    <i class="bx bx-map home__icon"></i> Sergio Flores #414, San Clemente - Chile
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-envelope home__icon"></i> carlosnr3005@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-phone home__icon"></i> +56 9 7547 3172
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Theme change button -->
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <a download="" href="assets/pdf/CV - Carlos Núñez.pdf" class="home__button-desktop">
+                            <i class="bx bx-download download-pdf" title="Descargar PDF"></i>
+                        </a>
+
+                    </section>
+
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">REDES SOCIALES</h2>
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/soleel/" target="_blank" class="social__link">
+                                <i class="social__icon bx bxl-linkedin-square"></i> Carlos Núñez Riquelme
+                            </a>
+                            <a href="https://github.com/SoleeL" target="_blank" class="social__link">
+                                <i class="social__icon bx bxl-github"></i> /SoleeL
+                            </a>
+                            <a href="https://twitter.com/SoleeL07" target="_blank" class="social__link">
+                                <i class="social__icon bx bxl-twitter"></i> @SoleeL07
+                            </a>
+                            <a href="https://discord.gg/dCYx6cXkv5" target="_blank" class="social__link">
+                                <i class="social__icon bx bxl-discord-alt"></i> SoleeL
+                            </a>
+                            <a href="https://www.twitch.tv/soleel" target="_blank" class="social__link">
+                                <i class="social__icon bx bxl-twitch"></i> /SoleeL
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Perfil</h2>
+                        <p class="profile__description">
+                            Soy un estudiante universitario con 5 años cursados y completados en Ing. Civil Informática.
+                            Mi primera vez en la universidad falle por inmadurez, lo que me hizo replantearme si estudiar era lo mío.
+                            Tras trabajar dos años en múltiples áreas decidí volver a intentarlo, con el objetivo de encontrar nuevos desafíos y mejores prestaciones.
+                        </p>
+                    </section>
+
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Educación</h2>
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Ing. Civil Informática</h3>
+                                    <span class="education__studies">Universidad Católica del Maule</span>
+                                    <span class="education__year">2016 - presente</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== EXPERIENCE ==========-->
+
+                    <section class="experience section movil" id="experience">
+                        <h2 class="section-title">Datos de Interés</h2>
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Secretaria de Comunicaciones</h3>
+                                    <span class="experience__company">2020 - 2021 | FEUCM: Federación de estudiantes de la UCM</span>
+                                    <p class="experience__description">
+                                        Durante mi labor llevé a cabo la planeación y desarrollo de múltiples páginas
+                                        web/repositorios para el organismo (feucm.cl) y CONFECH (confech.org).
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">NuestroVoto entre las 10 mejores ideas</h3>
+                                    <span class="experience__company">2020 | Ideatón de innovación tecnológica de "Frena la curva"</span>
+                                    <p class="experience__description">
+                                        Junto a compañeros de generación logramos quedar entre
+                                        las 10 mejores ideas y actualmente trabajamos en una demo de “NuestroVoto” plataforma de eVoting.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Pasantía en Oriencoop</h3>
+                                    <span class="experience__company">2019 | Cooperativa de ahorro y crédito Oriencoop</span>
+                                    <p class="experience__description">
+                                        Desarrollé y despliegue una herramienta de
+                                        solicitudes de créditos de consumo en su plataforma web.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">4to lugar en Hackathon</h3>
+                                    <span class="experience__company">2018 | Hackathon 3IT</span>
+                                    <p class="experience__description">
+                                        Participé en la Hackathon organizada por
+                                        3IT empresa de tecnología, en la que mi equipo quedó en 4to lugar.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section movil" id="skills">
+
+                        <h2 class="section-title">Habilidades</h2>
+                        <div class="skills__container bd-grid">
+                            <div class="skills__content">
+                                <h3 class="skills__title">Herramientas</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Linux & Shell
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Git/GitHub
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> NPM/NPX y Yarn
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> TypeScript
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Prettier/ESLint
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> WebPack
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__content">
+                                <h3 class="skills__title">Front-End</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> HTML/CSS/JS
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> React: Redux
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Next.js
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Gatsby.js
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Jest
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__content">
+                                <h3 class="skills__title">Back-End</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Rest API/OpenAP
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> GraphQL
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> OAuth/JWT
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> RabbitMQ
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Node.js: Express.js
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Testing: Postman
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__content">
+                                <h3 class="skills__title">CMS</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> WP: Divi, ACF y CPT UI
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Sanity
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__content">
+                                <h3 class="skills__title">Base de datos</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> PostgreSQL y Oracle
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> MongoDB
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Sequelize y SQLAlchemy
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__content">
+                                <h3 class="skills__title">Hosting</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> DigitalOcean: Droplet
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> AWS: EC2 y VPC
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Netlify
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__content">
+                                <h3 class="skills__title">DevOps</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Docker y Compose
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Ansible
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Swarm y Kubernetes
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Terraform
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> GitHub Action
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Jenkins
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Sentry
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__content">
+                                <h3 class="skills__title">Profesionales</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Principios de Desarrollo
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Diseño Responsivo
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Arquitectura de Software
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Diseño de Web APIs
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Diseño de BD
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Gestión de Servicios
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Idiomas</h2>
+                        <div class="lenguages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Español (nativo)
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Inglés (básico)
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Intereses</h2>
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class="bx bx-basketball interests__icon"></i>
+                                <span class="interests__name">Baloncesto</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bx-game interests__icon"></i>
+                                <span class="interests__name">Gaming</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bxs-book interests__icon"></i>
+                                <span class="interests__name">Literatura</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bx-group interests__icon"></i>
+                                <span class="interests__name">Política</span>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section no__movil" id="experience2">
+                        <h2 class="section-title">Datos de Interés</h2>
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Secretaria de Comunicaciones</h3>
+                                    <span class="experience__company">2020 - 2021 | FEUCM: Federación de estudiantes de la UCM</span>
+                                    <p class="experience__description">
+                                        Durante mi labor llevé a cabo la planeación y desarrollo de múltiples páginas
+                                        web/repositorios para el organismo (feucm.cl) y CONFECH (confech.org).
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">NuestroVoto entre las 10 mejores ideas</h3>
+                                    <span class="experience__company">2020 | Ideatón de innovación tecnológica de "Frena la curva"</span>
+                                    <p class="experience__description">
+                                        Junto a compañeros de generación logramos quedar entre
+                                        las 10 mejores ideas y actualmente trabajamos en una demo de “NuestroVoto” plataforma de eVoting.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Pasantía en Oriencoop</h3>
+                                    <span class="experience__company">2019 | Cooperativa de ahorro y crédito Oriencoop</span>
+                                    <p class="experience__description">
+                                        Desarrollé y despliegue una herramienta de
+                                        solicitudes de créditos de consumo en su plataforma web.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">4to lugar en Hackathon</h3>
+                                    <span class="experience__company">2018 | Hackathon 3IT</span>
+                                    <p class="experience__description">
+                                        Participé en la Hackathon organizada por
+                                        3IT empresa de tecnología, en la que mi equipo quedó en 4to lugar.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section no__movil" id="skills2">
+                        <h2 class="section-title">Habilidades</h2>
+                        <div class="skills__container bd-grid">
+                            <div class="skills__content">
+                                <h3 class="skills__title">Herramientas</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Linux & Shell
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Git/GitHub
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> NPM/NPX y Yarn
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> TypeScript
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Prettier/ESLint
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> WebPack
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__content">
+                                <h3 class="skills__title">Front-End</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> HTML/CSS/JS
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> React: Redux
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Next.js
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Gatsby.js
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Jest
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__content">
+                                <h3 class="skills__title">Back-End</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Rest API/OpenAP
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> GraphQL
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> OAuth/JWT
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> RabbitMQ
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Node.js: Express.js
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Testing: Postman
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__content">
+                                <h3 class="skills__title">CMS</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> WP: Divi, ACF y CPT UI
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Sanity
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__content">
+                                <h3 class="skills__title">Base de datos</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> PostgreSQL y Oracle
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> MongoDB
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Sequelize y SQLAlchemy
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__content">
+                                <h3 class="skills__title">Hosting</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> DigitalOcean: Droplet
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> AWS: EC2 y VPC
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Netlify
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__content">
+                                <h3 class="skills__title">DevOps</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Docker y Compose
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Ansible
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Swarm y Kubernetes
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Terraform
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> GitHub Action
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Jenkins
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Sentry
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__content">
+                                <h3 class="skills__title">Profesionales</h3>
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Principios de Desarrollo
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Diseño Responsivo
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Arquitectura de Software
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Diseño de Web APIs
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Diseño de BD
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Gestión de Servicios
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== READINGS ==========-->
+                    <!-- TODO añadir enlaces a los libros y documentacion -->
+                    <section class="Readings section" id="readings">
+                        <h2 class="section-title">Lecturas</h2>
+                        <div class="readings__content bd-grid">
+                            <ol class="readings__data">
+                                <!-- <li class="readings__book">
+                                    <a href="https://www.amazon.com/Cats-Guide-Internet-Freedom/dp/1718500297/" target="_blank" class="readings__link">
+                                    <p class="readings__details">
+                                    <b class="readings__title">How the Internet Really Works</b> por ARTICLE 19 y Catnip
+                                    </p>
+                                    </a>
+                                    </li> -->
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">How the Internet Really Works</b> por ARTICLE 19 y Catnip
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Web Application Security</b> por Andrew Hoffman
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Building Secure and Reliable Systems</b> por Heather Adkins
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Think like a programmer</b> por V. Anton Spraul
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Learning JavaScript Data Structures and Algorithms</b> por Loiane Groner
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Clean Code in JavaScript</b> por James Padolsey
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Lenguaje HTML (lenguajehtml.com)</b> por J. Román
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Lenguaje CSS (lenguajecss.com)</b> por J. Román
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Responsive Web Design with HTML5 and CSS</b> por Ben Frain
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">JavaScript.info: El Tutorial de JavaScript Moderno (javascript.info)</b> por Ilya Kantor
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Git Essentials</b> por Ferdinando Santacroce
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Pro Git</b> por Scott Chacon y Ben Straub
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">GitHub Essentials</b> por Achilleas Pipinellis
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Database Modeling step-by-step</b> por Gavin Powell
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">SQL & NoSQL Databases</b> por Andreas Meier
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Database Design: For Mere Mortals</b> por Michael J. Hernandez
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Learn SQL Database Programming</b> por Josephine Bush
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Learn PostgreSQL</b> por Luca Ferrari y Enrico Pirozzi
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">MongoDB: The Definitive Guide</b> por Shannon Bradshaw
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">How Linux Work</b> por Brian Ward
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">The Linux Command Line</b> por William Shotts
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Learning React</b> por Alex Banks & Eve Porcello
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">React and Libraries</b> por Elad Elrom
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Essential TypeScript 4</b> por Adam Freeman
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Building React Apps with Server-Side Rendering</b> por Mohit Thakkar
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Jumpstart Jamstack Development</b> por Christopher Pecoraro
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Node.js Web Development</b> por David Herron
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">The Design of Web APIs</b> por Arnaud Lauret
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Testing JavaScript Applications</b> por Lucas da Costa
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">API Testing and Development with Postman</b> por Dave Westerveld
+                                    </p>
+                                </li>
+                                <li class="readings__book">
+                                    <p class="readings__details">
+                                        <b class="readings__title">Test-Driven React</b> por Trevor Burnham
+                                    </p>
+                                </li>
+                            </ol>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+
+</html>

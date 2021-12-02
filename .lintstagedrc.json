@@ -1,0 +1,3 @@
+{
+    "*.{html,js}": "npm run eslint:base -- --fix --max-warnings 0"
+}

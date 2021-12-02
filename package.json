@@ -1,0 +1,24 @@
+{
+    "name": "curriculum",
+    "version": "1.0.0",
+    "description": "curriculum vitae personal",
+    "main": "index.js",
+    "scripts": {
+        "eslint:base": "eslint --ignore-path .gitignore",
+        "lint:eslint": "npm run eslint:base -- --max-warnings 0 \"**/*.{html,js}\"",
+        "lint": "npm run lint:eslint",
+        "format": "npm run eslint:base -- --fix \"**/*.{html,js}\"",
+        "prepare": "husky install",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Carlos Núñez",
+    "license": "ISC",
+    "devDependencies": {
+        "@html-eslint/eslint-plugin": "^0.13.0",
+        "@html-eslint/parser": "^0.13.0",
+        "eslint": "^8.3.0",
+        "husky": "^7.0.4",
+        "lint-staged": "^12.1.2"
+    }
+}
